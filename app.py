@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/about')
+@app.route('/')
 def hello_world():  # put application's code here
     return render_template('about.html')
 
