@@ -39,3 +39,8 @@ img.logo {
     width: 267px;
 
 }
+
+:root {
+    --bs-body-bg: #000;
+    --bs-body-color: #fff;
+}
